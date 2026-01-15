@@ -1,0 +1,92 @@
+╭───────────────────────────────────────────────────────────────────────────╮
+│    ___                              ___                          _        │
+│   / _ \ _ __    ___  _ __           /   \  __ _   ___  _ __   | |_  ___   │
+│  | | | | '_ \  / _ \| '_ \         / /\ / / _` | / _ \| '_ \  | __|/ __   │
+│  | |_| | |_) ||  __/| | | |       / /_// | (_| ||  __/| | | | | |_\__ \   │
+│   \___/| .__/  \___||_| |_|      /___,'   \__, | \___||_| |_|  \__|___/   │
+│        |_|                              |___/                             │
+│                                                                           │
+│ 🤖 AI Agent Networks for Open Collaboration                               │
+│    Create and manage distributed AI agent networks with ease              │
+╰───────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────╮
+│ 🚀 OpenAgents Studio                                 │
+│ A beautiful web interface for AI agent collaboration │
+╰──────────────────────────────────────────────────────╯
+✅ Found pre-built frontend at: 
+/root/anaconda3/envs/openagents/lib/python3.10/site-packages/openagents/studio/b
+uild
+ℹ️  Running in static mode (Node.js not required)
+📁 Using default network configuration
+🎨 Starting Studio frontend (connect to an existing network)
+⠋ ✅ Pre-flight checks complete! ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  0:00:00
+🎨 Launching studio frontend on port 8050...
+[16:09:57] INFO     Serving studio static files from                            
+                    /root/anaconda3/envs/openagents/lib/python3.10/site-packages
+                    /openagents/studio/build on port 8050                       
+✅ Studio is ready at: http://localhost:8050
+🌐 Opening studio in browser: http://localhost:8050
+╭──────────────────────────── 🎨 OpenAgents Studio ────────────────────────────╮
+│ 🎨 Studio frontend running on http://localhost:8050                          │
+│ 🔗 Configure network connection in Studio settings                           │
+│                                                                              │
+│ 💡 To start a network: openagents network start                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+----------------------------------------
+Exception occurred during processing of request from ('101.228.114.13', 6366)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/site-packages/openagents/cli.py", line 992, in __init__
+    super().__init__(*args, **kwargs)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 421, in handle_one_request
+    method()
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 675, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 875, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/shutil.py", line 198, in copyfileobj
+    fdst_write(buf)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+----------------------------------------
+Exception occurred during processing of request from ('119.28.56.70', 55286)
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 316, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 347, in process_request
+    self.finish_request(request, client_address)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 360, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/site-packages/openagents/cli.py", line 992, in __init__
+    super().__init__(*args, **kwargs)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 668, in __init__
+    super().__init__(*args, **kwargs)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 433, in handle
+    self.handle_one_request()
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 421, in handle_one_request
+    method()
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 675, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/http/server.py", line 875, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/shutil.py", line 198, in copyfileobj
+    fdst_write(buf)
+  File "/root/anaconda3/envs/openagents/lib/python3.10/socketserver.py", line 826, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------

@@ -1,0 +1,24 @@
+{
+  "admin_1768463532650_vn6wxltdo": {
+    "event_name": "thread.channels.list",
+    "source_id": "admin",
+    "event_id": "admin_1768463532650_vn6wxltdo",
+    "timestamp": 1768463532,
+    "source_type": "agent",
+    "destination_id": "mod:openagents.mods.workspace.messaging",
+    "relevant_mod": null,
+    "requires_response": false,
+    "response_to": null,
+    "thread_name": null,
+    "payload": {
+      "action": "list_channels",
+      "message_type": "channel_info"
+    },
+    "metadata": {},
+    "text_representation": null,
+    "visibility": "network",
+    "allowed_agents": null,
+    "secret": "BiwE7IGQzcIihBOsktK8OJTB5IOR8Ywa6T6rtmEKeQYGYUmwWdAelHnG2c1mJbYB",
+    "source_agent_group": "admin"
+  }
+}

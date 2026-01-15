@@ -1,0 +1,30 @@
+2026-01-15 15:57:08,277 - root - INFO - Logging to file: /app/openagents/zprotocol/agents/openagents.log
+2026-01-15 15:57:08,288 - openagents.utils.agent_loader - INFO - Processed 1 enabled mods: ['openagents.mods.workspace.messaging']
+2026-01-15 15:57:08,290 - openagents.utils.agent_loader - INFO - Creating openagents.agents.collaborator_agent.CollaboratorAgent instance with ID 'charlie'
+2026-01-15 15:57:08,294 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.workspace.messaging
+2026-01-15 15:57:08,295 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.workspace.messaging (no args)
+2026-01-15 15:57:08,300 - openagents.mods.workspace.messaging.adapter - INFO - Initializing Thread Messaging protocol for agent charlie with file storage at /tmp/openagents_agent_charlie_threads_rg14b4m7
+2026-01-15 15:57:08,301 - openagents.core.client - INFO - Registered mod adapter ThreadMessagingAgentAdapter with agent charlie
+2026-01-15 15:57:08,302 - openagents.agents.runner - INFO - Updated available tools for agent charlie: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message']
+2026-01-15 15:57:08,307 - openagents.utils.agent_loader - INFO - Successfully loaded openagents.agents.collaborator_agent.CollaboratorAgent 'charlie' from /app/openagents/zprotocol/agents/charlie.yaml
+2026-01-15 15:57:08,343 - openagents.core.client - INFO - ✅ Successfully retrieved health check from http://localhost:8700/api/health
+2026-01-15 15:57:08,346 - openagents.core.client - INFO - Detected network: DefaultNetwork (default-network-1)
+2026-01-15 15:57:08,347 - openagents.core.client - INFO - Transport: grpc, Host: localhost, Port: 8600
+2026-01-15 15:57:08,348 - openagents.core.client - INFO - Creating gRPC connector for agent charlie
+2026-01-15 15:57:08,503 - openagents.core.connectors.grpc_connector - INFO - Connecting to gRPC server at localhost:8600
+2026-01-15 15:57:08,574 - openagents.core.connectors.grpc_connector - INFO - Connected to gRPC network successfully
+2026-01-15 15:57:08,575 - openagents.core.client - INFO - 🔧 Starting message polling for  agent charlie
+2026-01-15 15:57:08,578 - openagents.core.client - INFO - 🔧 CLIENT: Starting message polling for agent charlie
+2026-01-15 15:57:08,597 - openagents.agents.runner - INFO - Supported mod: openagents.mods.games.agentworld (v1.0.0)
+2026-01-15 15:57:08,598 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.default (v1.0.0)
+2026-01-15 15:57:08,599 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.project (v1.0.0)
+2026-01-15 15:57:08,600 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.forum (v1.0.0)
+2026-01-15 15:57:08,602 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.wiki (v1.0.0)
+2026-01-15 15:57:08,603 - openagents.agents.runner - INFO - Supported mod: openagents.mods.workspace.messaging (v1.0.0)
+2026-01-15 15:57:08,605 - openagents.utils.mod_loaders - INFO - Successfully loaded mod adapter: openagents.mods.games.agentworld
+2026-01-15 15:57:08,607 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter created
+2026-01-15 15:57:08,608 - openagents.utils.mod_loaders - INFO - Instantiated adapter for openagents.mods.games.agentworld (no args)
+2026-01-15 15:57:08,609 - openagents.mods.games.agentworld.adapter - INFO - AgentWorld adapter initialized for agent charlie, game server: localhost:7031, username_prefix: None
+2026-01-15 15:57:08,610 - openagents.core.client - INFO - Registered mod adapter AgentWorldAdapter with agent charlie
+2026-01-15 15:57:08,611 - openagents.agents.runner - INFO - Updated available tools for agent charlie: ['send_direct_message', 'send_channel_message', 'reply_channel_message', 'list_channels', 'retrieve_channel_messages', 'retrieve_direct_messages', 'react_to_message', 'agentworld_login', 'agentworld_observe', 'agentworld_move', 'agentworld_chat', 'agentworld_attack', 'agentworld_harvest', 'agentworld_craft', 'agentworld_transfer_items']
+2026-01-15 16:04:36,192 - openagents.utils.mcp_connector - INFO - Cleaning up MCP clients
